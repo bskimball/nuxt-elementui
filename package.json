@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "Brian Kimball",
-  "private": true,
+  "private": false,
   "dependencies": {
     "element-ui": "^1.4.2",
     "nuxt": "latest"
