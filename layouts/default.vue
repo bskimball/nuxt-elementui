@@ -1,13 +1,16 @@
 <template>
   <div>
-    <main-menu></main-menu>
+    <el-button type="primary">Primary Button</el-button>
     <nuxt/>
   </div>
 </template>
 
 <script>
+  import { Button } from 'element-ui'
   export default {
-
+    components: {
+      'el-button': Button
+    }
   }
 </script>
 
